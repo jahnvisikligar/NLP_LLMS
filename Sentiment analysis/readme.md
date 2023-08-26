@@ -9,3 +9,5 @@ The model's performance was evaluated on a separate test dataset, and the evalua
 Finally, I used the Pipeline API and the uploaded model to perform sentiment analysis on new data. The final sentiment model accurately classified the polarity of a given text as positive or negative. This project allowed me to demonstrate my natural language processing, machine learning, and deep learning abilities.
 
 Streamlit App: https://js21-sentiment-analysis-with-streamlit.hf.space/
+
+![](https://github.com/NLP_projects/Sentiment analysis/streamlit-app-2023-08-26-20-08-53-_copy_.gif)
