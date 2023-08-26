@@ -1,4 +1,4 @@
-# Sentiment analysis using BERT model
+# Sentiment analysis using the BERT model
 
 I used the BERT model to implement sentiment analysis in this project. I used PyTorch and the Hugging Face transformers library to fine-tune a pre-trained DistilBERT model. The model was trained on a small dataset of 10,000 IMDB movie reviews.
 
