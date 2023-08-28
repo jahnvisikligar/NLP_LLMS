@@ -1,4 +1,5 @@
-# Sentiment Analysis Made Easy
+<h1 align="center">Sentiment Analysis Made Easy</h1>
+
 
 Sentiment analysis plays a crucial role in understanding the opinions of people and enhancing customer experience for businesses. Being one of the key aspects of Natural Language Processing(NLP), sentiment analysis is a process of analyzing digital text to determine its emotional states such as positive, negative or neutral. Here, we dive deeper into implementing a pre-trained BERT model and deploying it using the StreamLit framework from the HuggingFace hub.
 
