@@ -8,7 +8,6 @@
    https://github.com/sophiamyang/tutorials-LangChain/blob/main/LangChain_QA.ipynb
 """
 
-
 """Working with Code"""
 
 #compilation of all libraries
@@ -48,9 +47,6 @@ QA_CHAIN_PROMPT=PromptTemplate(input_variables=["context","question"],template=t
 #Download embeddings from OpenAI
 embeddings=OpenAIEmbeddings(openai_api_key="YOUR_API_KEY")
 db=FAISS.from_documents(pages, embeddings)
-
-#working with memory
-memory=ConversationBufferMemory(k=5,memory_key="chat_history",return_messages=True)
 
 # expose this index in a retriever interface
 #k=value return the top 2 most similar chunks
