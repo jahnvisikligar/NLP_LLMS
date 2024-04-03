@@ -52,7 +52,7 @@ db=FAISS.from_documents(pages, embeddings)
 #k=value return the top 2 most similar chunks
 # create a chain to answer questions
 qa=ConversationalRetrievalChain.from_llm(ChatOpenAI(model_name="gpt-3.5-turbo-0613",temperature=0,openai_api_key="YOUR_API_KEY"),
-                                         retriever=db.as_retriever(search_type="similarity",search_kwargs={"k":2}),
+                                         retriever=FAISS.from_documents(pages, OpenAIEmbeddings(openai_api_key="YOUR_API_KEY")).as_retriever(search_type="similarity",search_kwargs={"k":2}),
                                          memory=ConversationBufferMemory(k=5,memory_key="chat_history",return_messages=True),
                                          combine_docs_chain_kwargs={"prompt":QA_CHAIN_PROMPT},verbose=True)
 
