@@ -36,7 +36,7 @@ pages=loader.load_and_split(RecursiveCharacterTextSplitter(chunk_size=1000,chunk
 template = """Use the following pieces of context to answer the question at the end.
 If you don't know the answer, just say that you don't know, don't try to make up an answer.
 Use three sentences maximum. Keep the answer as concise as possible.
-Must answer in the language user is questioning you. By default, answer in English language only.
+Must answer in English language only.
 Always say "thanks for asking!" at the end of the answer.
 {context}
 Question: {question}
