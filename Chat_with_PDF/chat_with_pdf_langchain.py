@@ -42,12 +42,8 @@ Question: {question}
 Helpful Answer:"""
 QA_CHAIN_PROMPT=PromptTemplate(input_variables=["context","question"],template=template)
 
-'''working with embeddings and vectorstore.
-performing embedding to store text in a vectorstore
-Download embeddings from OpenAI
-expose this index in a retriever interface
-k=value return the top 2 most similar chunks
-create a chain to answer questions'''
+'''performing embedding to store text in a vectorstore. expose this index in a retriever interface
+k=value return the top 2 most similar chunks. create a chain to answer questions'''
 qa=ConversationalRetrievalChain.from_llm(ChatOpenAI(model_name="gpt-3.5-turbo-0613",temperature=0,openai_api_key="YOUR_API_KEY"),
                                          retriever=FAISS.from_documents(pages, OpenAIEmbeddings(openai_api_key="YOUR_API_KEY")).as_retriever(search_type="similarity",search_kwargs={"k":2}),
                                          memory=ConversationBufferMemory(k=5,memory_key="chat_history",return_messages=True),
