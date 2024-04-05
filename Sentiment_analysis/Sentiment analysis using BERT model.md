@@ -11,4 +11,3 @@ Finally, I used the Pipeline API and the uploaded model to perform sentiment ana
 Streamlit App: https://js21-sentiment-analysis-with-streamlit.hf.space/
 
 ![streamlit-app-2023-08-26-20-08-53-_copy_](https://github.com/jahnvisikligar/NLP_projects/assets/83291068/5df68dee-4d35-406b-9f08-c2e2d51703ca)
-
