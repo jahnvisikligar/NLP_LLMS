@@ -2,7 +2,8 @@
 #installing necessary libraries by uncommenting the below line
 #!pip install langchain-community pypdf -U langchain-openai faiss-cpu --upgrade langchain python-dotenv
 
-"""Code and data references: 
+"""
+   Code and data references: 
    https://python.langchain.com/docs/get_started/introduction 
    https://medium.com/getpieces/how-to-build-a-langchain-pdf-chatbot-b407fcd750b9
    https://github.com/sophiamyang/tutorials-LangChain/blob/main/LangChain_QA.ipynb
