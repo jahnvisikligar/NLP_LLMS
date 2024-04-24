@@ -21,5 +21,5 @@ This block defines the core components of the conversational retrieval chain:
 - Retriever: The `FAISS` vector store is used as a retriever to find the most similar document chunks (pages) to a given query based on their embeddings.
 - Memory: A `ConversationBufferMemory` keeps track of the past `k=5`
  
-**5. Running the Application**:
+**4. Running the Application**:
 This section initializes an empty `chat_history` list and demonstrates how to ask a question (`query`) using the conversational retrieval chain (`qa`). The retrieved answer is stored in the result dictionary.
