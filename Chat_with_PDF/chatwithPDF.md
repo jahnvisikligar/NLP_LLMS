@@ -1,3 +1,6 @@
+<img width="1672" height="941" alt="ChatGPT Image Sep 28, 2026, 08_02_17 PM" src="https://github.com/user-attachments/assets/f5155937-d08c-45c1-b1d7-ee40a3f91654" />
+
+
 ## Key Technologies:
 
 * **Langchain**: A Python library that facilitates the development of conversational AI applications. It offers components for document loading, text splitting, prompting, retrieval, memory management, and chain building.
