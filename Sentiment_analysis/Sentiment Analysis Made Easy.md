@@ -1,3 +1,7 @@
+<img width="1671" height="941" alt="ChatGPT Image Sep 28, 2026, 07_47_19 PM" src="https://github.com/user-attachments/assets/b3adc781-60fd-4dfd-b933-84747f8d7b42" />
+
+
+
 <h1 align="center">Sentiment Analysis Made Easy</h1>
 
 
